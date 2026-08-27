@@ -1,0 +1,26 @@
+# Navneet TopTech Learning Hub - core dependencies
+streamlit>=1.36.0
+streamlit-option-menu>=0.3.13
+plotly>=5.20.0
+pandas>=2.0.0
+numpy>=1.26.0
+SQLAlchemy>=2.0.0
+python-dotenv>=1.0.0
+passlib>=1.7.4
+requests>=2.31.0
+youtube-transcript-api>=0.6.2
+yt-dlp>=2024.4.9
+reportlab>=4.1.0
+python-docx>=1.1.0
+
+# ── Optional: local audio transcription (videos without captions / uploads)
+# Install these if you want Whisper fallback transcription:
+# faster-whisper>=1.0.0
+
+# ── Optional: heavier vector stores (a built-in TF-IDF retriever is used
+#    automatically if these are absent):
+# faiss-cpu>=1.8.0
+# chromadb>=0.5.0
+
+# ── Optional: PostgreSQL support
+# psycopg2-binary>=2.9.9
